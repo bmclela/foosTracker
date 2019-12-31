@@ -9,6 +9,7 @@ import Home from "./components/Home";
 import Players from "./components/Players";
 import Teams from "./components/Teams";
 import Tournament from "./components/Tournament";
+import About from "./components/About";
 import "./style/style.css";
 
 const App = props => {
@@ -34,6 +35,7 @@ const App = props => {
           <Route path="/teams" exact component={Teams} />
           <Route path="/players" exact component={Players} />
           <Route path="/tournament" exact component={Tournament} />
+          <Route path="/about" exact component={About} />
         </div>
       </BrowserRouter>
     </div>

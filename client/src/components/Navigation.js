@@ -18,7 +18,7 @@ class Navigation extends React.Component {
         >
           <Navbar.Brand href="/">
             <div to="/" style={{ fontSize: 26 }}>
-              SCI Foos<span style={{ color: "red" }}>360</span>
+              Foos<span style={{ color: "red" }}>Tracker</span>
             </div>
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
@@ -33,9 +33,9 @@ class Navigation extends React.Component {
               <LinkContainer to="/teams">
                 <Nav.Link>Teams</Nav.Link>
               </LinkContainer>
-              {/* <LinkContainer to="/tournament">
-                <Nav.Link>Tournament</Nav.Link>
-              </LinkContainer> */}
+              <LinkContainer to="/about">
+                <Nav.Link>About</Nav.Link>
+              </LinkContainer>
             </Nav>
             <div>
               <Form inline style={{ float: "left", display: "inline-block" }}>
