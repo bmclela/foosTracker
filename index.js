@@ -23,15 +23,15 @@ require("./routes/gameRoutes")(app);
 const resetAll = require("./logic/resetAll");
 
 // Resets rankings every day
-new CronJob(
-  "0 0 * * *",
-  function() {
-    resetAll.reset();
-  },
-  null,
-  true,
-  "America/Los_Angeles"
-);
+// new CronJob(
+//   "0 0 * * *",
+//   function() {
+//     resetAll.reset();
+//   },
+//   null,
+//   true,
+//   "America/Los_Angeles"
+// );
 
 if (process.env.NODE_ENV === "production") {
   app.use(express.static("client/build"));
