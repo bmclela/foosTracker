@@ -35,10 +35,7 @@ const Opponents = props => {
   return (
     <div
       style={{
-        marginRight: "40px",
-        marginLeft: "40px",
-        marginTop: "50px",
-        marginBottom: "50px"
+        margin: 40
       }}
     >
       <div>
