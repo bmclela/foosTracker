@@ -103,6 +103,7 @@ const Opponents = props => {
         </div>
       </div>
       {displayOpponents}
+      <div style={{ marginBottom: "50px" }} />
     </div>
   );
 };
