@@ -37,7 +37,8 @@ const Opponents = props => {
       style={{
         marginRight: "40px",
         marginLeft: "40px",
-        marginTop: 50
+        marginTop: "50px",
+        marginBottom: "50px"
       }}
     >
       <div>
@@ -103,7 +104,6 @@ const Opponents = props => {
         </div>
       </div>
       {displayOpponents}
-      <div style={{ marginBottom: "50px" }} />
     </div>
   );
 };
