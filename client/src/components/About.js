@@ -1,13 +1,13 @@
-import React from "react";
-import { Card } from "react-bootstrap";
+import React from 'react';
+import { Card } from 'react-bootstrap';
 
 const About = () => {
   return (
     <div>
       <div style={{ height: 40, marginTop: 40 }}>
-        <h1 style={{ textAlign: "center", color: "white" }}>About</h1>
+        <h1 style={{ textAlign: 'center', color: 'white' }}>About</h1>
       </div>
-      <Card id="background" style={{ margin: "40px" }}>
+      <Card id='background' style={{ margin: '40px' }}>
         <Card.Body>
           <Card.Text style={{ fontSize: 24 }}>
             What is this application?
@@ -36,16 +36,15 @@ const About = () => {
             How are players and teams ranked?
           </Card.Text>
           <Card.Text style={{ fontSize: 14 }}>
-            The ranking method for both players and teams is based on the{" "}
+            The ranking method for both players and teams is based on the{' '}
             <a
-              href="https://en.wikipedia.org/wiki/Elo_rating_system"
-              target="_blank"
-              rel="noopener noreferrer"
+              href='https://en.wikipedia.org/wiki/Elo_rating_system'
+              target='_blank'
+              rel='noopener noreferrer'
             >
               elo rating system
             </a>
-            . Various other statistics are also recorded and displayed for each
-            player and team.
+            .
           </Card.Text>
           <br />
           <Card.Text style={{ fontSize: 24 }}>
